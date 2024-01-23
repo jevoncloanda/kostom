@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang di Kostom!"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Ukuran Ruangan"/>
+
+
+    <Spinner
+        android:id="@+id/roomSizeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Opsi Tambahan"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/bathroomCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kamar Mandi"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/acCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AC"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/tableCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meja"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/chairCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kursi"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/wardrobeCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lemari"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/tvCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TV"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/checkAllButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Semua Opsi"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus Semua Opsi"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/reserveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanjutkan Pembayaran"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
